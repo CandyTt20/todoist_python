@@ -19,3 +19,4 @@ tasks = [task.data for task in api.state['items']]
 df_tasks = pd.DataFrame(tasks)
 print(df_tasks) 
 # print(df_tasks['due_date_utc'])
+# print(df_tasks['due_date_utc'])
